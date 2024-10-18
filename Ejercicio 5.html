@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Ejercicio 5</title>
+        <style>
+            .imagen-giratoria {
+                animation-name: girar;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+    
+            @keyframes girar {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <img src="daning_snail.gif" alt="Imagen que gira" class="imagen-giratoria"
+        width="250px"
+        height="250px">
+    </body>
+</html>
